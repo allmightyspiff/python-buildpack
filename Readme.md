@@ -36,7 +36,7 @@ Offline mode expects each app to use pip to manage dependencies. Use `pip instal
   ```
 
 1. Build the buildpack
-
+  
   ```bash
   bin/package [ online | offline ]
   ```
