@@ -14,8 +14,9 @@ else
   /app/.heroku/python/bin/pip install -r requirements.txt --exists-action=w --src=./.heroku/src --allow-all-external | cleanup | indent
 fi
 
-pip install pyramid
 echo "Installing pytamid"
+pip install pyramid
+
 
 # Smart Requirements handling
 cp requirements.txt .heroku/python/requirements-declared.txt
